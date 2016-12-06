@@ -1,0 +1,5 @@
+c:\users\user\documents\visual studio 2013\Projects\MovieReviews\MovieReviews\bin\MovieReviews.dll.config
+c:\users\user\documents\visual studio 2013\Projects\MovieReviews\MovieReviews\bin\MovieReviews.dll
+c:\users\user\documents\visual studio 2013\Projects\MovieReviews\MovieReviews\bin\MovieReviews.pdb
+c:\users\user\documents\visual studio 2013\Projects\MovieReviews\MovieReviews\obj\Debug\MovieReviews.dll
+c:\users\user\documents\visual studio 2013\Projects\MovieReviews\MovieReviews\obj\Debug\MovieReviews.pdb
