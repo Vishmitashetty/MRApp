@@ -18,15 +18,14 @@
                var len = array[i].length;
                if (len != null) {
 
-                   $http.get('https://www.omdbapi.com/?s=' + array[i] + '&type=' + m).success(function (data) {
-
-                       document.getElementById("result").style.display = 'block';
+                   $http.get('https://www.omdbapi.com/?s=' + array[i] + '&type=' + m).success(function (data) {                  
                        $scope.datas = data;
                        console.log(data);
                        
 
                        //iterating through response data array of object
                        angular.forEach(data.Search, function (obj) {
+                           document.getElementById("result").style.display = 'block';
 
                            $http.get('https://www.omdbapi.com/?i=' + obj.imdbID + '&plot=short&r=json&tomatoes=true').success(function (response) {
 
