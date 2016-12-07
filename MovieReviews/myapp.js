@@ -11,7 +11,7 @@
            var dat = new Array();
           var m = document.getElementById("type").value; //type value(movie,series)
            var array = $scope.searchparams.split(','); // converting string to array
-
+           var count = 0;
            //looping through each string
            for (i = 0; i < array.length; i++) {
                var searchword = array[i];
@@ -23,7 +23,7 @@
                        document.getElementById("result").style.display = 'block';
                        $scope.datas = data;
                        console.log(data);
-                       var count = 0;
+                       
 
                        //iterating through response data array of object
                        angular.forEach(data.Search, function (obj) {
